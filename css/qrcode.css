@@ -1,0 +1,28 @@
+#qrcode-container{
+    background-color: #1abc9c;
+    padding-top: 100px;
+    min-height: calc(100vh - 50px);
+}
+#qrcode{
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+#qrcode-container .info{
+    // text-align: center;
+    padding: 20px;
+    width: 320px;
+    margin: 0 auto;
+}
+#qrcode-container .ph{
+    margin: 10px;
+}
+#qrcode-container .ph .np{
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #999;
+}

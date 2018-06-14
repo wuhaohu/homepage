@@ -1,0 +1,36 @@
+.mobile{
+    overflow-x: hidden;
+}
+    .mobile .navbar-fixed-container .navbar-right{
+            display: none;
+        }
+    .mobile .navbar-fixed-container .dropdown{
+            height: 50px;
+            line-height: 50px;
+            display: block;
+        }
+    .mobile .navbar-fixed-container .dropdown-toggle{
+            position: absolute;
+            right: 0;
+            top: 8px;
+        }
+    .mobile .navbar-fixed-container .dropdown-menu{
+            top: 40px;
+        }
+    .mobile .navbar-fixed-container .dropdown-menu li{
+                font-size: 16px;
+                padding: 5px 0;
+            }
+    .mobile .home-scroll-container .scrollimg{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    .mobile .tools-container button{
+            overflow: hidden;
+            margin: 10px 0 20px 0;
+        }
+    .mobile .tools-container img{
+            max-width: 100%;
+        }
+/*# sourceMappingURL=index.mobile.css.map */
