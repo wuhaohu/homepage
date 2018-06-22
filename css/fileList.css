@@ -3,7 +3,7 @@
     transition: opacity .2s ease;
 }
 .app-list-container{
-    background-color: #1abc9c;
+    background-color: #3f95d5;
     position: relative;
     height: calc(100vh - 270px);
     overflow-y: scroll;

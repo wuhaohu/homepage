@@ -6,7 +6,7 @@
     font-family: "PingFang_Light.ttf","glyphicons-halflings-regular.woff","微软雅黑","SimHei";
 }
 body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,
-form,input,textarea,p,th,td{ 
+form,input,textarea,p,th,td{
     padding: 0; 
     margin: 0; 
 }
@@ -17,7 +17,7 @@ a:hover{
     text-decoration: none;
 }
 .navbar-fixed-container{
-    background-color: #373277;
+    background-color: #3b86f7;
     height: 50px;
     position: fixed;
     top: 0;

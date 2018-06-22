@@ -1,13 +1,22 @@
 .home-scroll-container {
   padding-top: 40px;
-  background-color: #286090;
+  background-color: #ffffff;
   color: #ffffff;
 }
   .home-scroll-container h1 {
+      color: #000000;
     text-align: center;
     margin: 20px 0 10px 0;
   }
-  .home-scroll-container .scrollimg {
+  .home-scroll-container button{
+      background-color: #3b86f7;
+      border: none;
+  }
+.home-scroll-container button:hover{
+    background-color: #ffffff;
+    color: #3b86f7;
+}
+  .home-scroll-container .scrolling {
     width: 670px;
     height: 424px;
     padding-bottom: 40px;
@@ -30,7 +39,7 @@
   .home-scroll-container .des p {
       font-weight: 300;
       font-size: 1.8rem;
-      color: rgba(255, 255, 255, 0.6);
+      color: rgba(21, 86, 198, 0.6);
       text-align: center;
     }
   .home-scroll-container .des .scroll-btn {
@@ -42,8 +51,9 @@
     }
   .home-scroll-container .des .text {
       background: rgba(0, 0, 0, 0.3);
-      background: #272354;
+      background: transparent;
       border-radius: 8px;
+      border-color: ;
       padding: 8px 8px;
       margin-top: 1.5rem;
       position: relative;
@@ -56,7 +66,7 @@
       display: block;
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
-      background: #272354;
+      background: transparent;
       position: absolute;
       top: -0.7rem;
       left: 1.45rem;
@@ -125,7 +135,7 @@
     }
 .ourskill-container .progress-wrapper .progress-bar{
       height: 100%;
-      background-color: #1abc9c;
+      background-color: #3b86f7;
       box-shadow: none;
     }
 .ourskill-container .progress-wrapper .progress-bar .progress-percent{
@@ -180,7 +190,7 @@
     margin-left: -22px;
   }
 .goal-container h2 strong {
-      color: #ff7864;
+      color: #3b86f7;
     }
 .goal-container .goal-wrapper {
     background-color: #f5f5f5;
@@ -280,7 +290,7 @@
         height: 46px;
       }
 .footer-container{
-  background-color: #373277;
+  background-color: #1556c6;
   color: #bdc9d0;
   width: 100%;
   height: 60px;
