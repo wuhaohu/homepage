@@ -107,7 +107,7 @@ a:hover{
         text-transform: uppercase;
     }
 #dots-menu ul li:hover{
-            background-color: #1abc9c;
+            background-color: #5694f2;
             -webkit-transform: scale(1);
                     transform: scale(1);
         }

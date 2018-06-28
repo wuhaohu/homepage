@@ -29,6 +29,7 @@
     width: 36px;
     height: 36px;
     background-size: contain;
+
   }
   .home-scroll-container .swiper-button-next {
     background-image: url(../icons/arrow-r.svg);
@@ -53,7 +54,7 @@
       background: rgba(0, 0, 0, 0.3);
       background: transparent;
       border-radius: 8px;
-      border-color: ;
+      border-style: solid;
       padding: 8px 8px;
       margin-top: 1.5rem;
       position: relative;
@@ -66,10 +67,11 @@
       display: block;
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
-      background: transparent;
+      background: #83a1d8;
       position: absolute;
       top: -0.7rem;
       left: 1.45rem;
+      border-style: solid;
     }
 .tools-container {
   margin: 40px;
